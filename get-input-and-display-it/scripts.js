@@ -1,4 +1,3 @@
-
 const input = document.querySelector('input');
 const showMessageElem = document.querySelector('p');
 

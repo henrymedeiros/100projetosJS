@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*:root {
+}*/
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  padding: 5px;
+}
+
+input, h1, h2, p{
+  margin-bottom: 10px;
+}
+
