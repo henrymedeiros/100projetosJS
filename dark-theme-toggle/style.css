@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #fff;
+    color: black;
+   
+    
+}
+
+#container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 300;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1,p{
+    margin-bottom: 1rem;
+}
+button{
+    padding:10px;
+}
+
+#container.dark{
+    background-color: black;
+    color:white;
+}
+
+.switch{
+    background-color: white;
+    color:black;
+    border: 2px solid blue;
+    border-radius:5px;
+}
+.switch.dark{
+    color:white;
+    background-color: blue;
+}
+
+  
